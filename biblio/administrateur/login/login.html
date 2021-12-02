@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+<script>
+
+	  	function admin()
+	  	{
+	  	var use=document.getElementById("user").value;
+	  	var pas=document.getElementById("pass").value;
+	  	if (use=="" || pas=="") 
+	  	{
+	  		window.alert('entrer tous les information');
+	  		window.navigator('');
+	  	}
+	  	if (use!="admine" || pas!="hamza") 
+	  	{ 
+	  		window.alert('password or username is incorrercte');
+	  		window.navigator('');
+	  	}
+	  	else 
+	  	{
+	  		window.open("../Administration/administration.html");
+	    }
+	    }
+	</script>
+</head>
+<body>
+<div class="loginBox">
+	<img src="1.jpg" class="user">
+	<h2> log In Here</h2>
+		<p>Email</p>
+		<input type="text" name="user" id="user" placeholder="Entrer Email">
+		<p>password</p>
+		<input type="password" name="pass" id="pass" placeholder=".........">
+		<input type="submit" name="" id="con" value="Sign In" onclick="admin()"/>
+</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+.img
+{
+	height:130px;
+	width: 1300px;
+}
+body
+{
+	background-color:rgba(51,51,51); 
+}
+.b{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 60px;
+	font-size: 18px;
+	border-radius: 15px;
+	width:250px; 
+	color:white;
+	border-color: rgba(75,75,75);
+}
+.b:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.p
+{
+	position: absolute;
+	color: white;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+.mot
+{
+	color:white;
+	background-color:#000;
+	margin-left: 250px;
+	margin-top: 60px;
+	position: absolute;
+}
+.mot:hover
+{
+	outline-color: orange;
+	border-color: orange;
+}
+.b1
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 30px;
+	font-size: 18px;
+	width:110px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 530px;
+	margin-top: 55px;
+	position: absolute;
+}
+.b1:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+
+select
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	width: 174px;
+	border-radius: 2px;
+	color: white;
+	height: 23px;
+	margin-left: 250px;
+	margin-top: 130px;
+}
+select:hover
+{
+	border-color: orange;
+	outline-color:orange;
+}
+option
+{
+	background-color: rgba(75,75,75);
+	color:#fff;
+}
+.p1
+{
+    position: absolute;
+	color: white;
+	margin-left: 150px;
+	margin-top: 130px;	
+}
+.nb
+{
+	color: orange;
+}
+table
+{
+	border:1px;
+	border-color:rgba(75,75,75);
+	border-style: solid;
+	border-radius: 3px;
+	color: white;
+}
+th
+{
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	color:white;
+	text-align:center;
+	height: 30px;
+	width: 200px;
+}
+.t1
+{
+	background-color: rgba(75,75,75);
+	color: white;
+	text-align:center;
+	height: 20px;
+}
+.t2
+{
+	background-color: black;
+	color: white;
+	text-align:center;
+	height: 20px;
+
+}
+td
+{
+	border-style:solid;
+    border-color: white;
+    border:1px;
+}
+
+
+
+
+
+
+
+
+
+

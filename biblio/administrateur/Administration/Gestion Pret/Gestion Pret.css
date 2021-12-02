@@ -1,0 +1,218 @@
+body
+{
+	background-color: rgba(45,45,45);
+}
+.c1
+{
+	border: 1px white solid;
+	height: 100px;
+	width: 600px;
+	margin-left: 300px;
+}
+.p1
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 80px;
+     margin-top: 40px;
+}
+.mot1
+{
+	color:white;
+	background-color:#000;
+	margin-left: 200px;
+	margin-top: 40px;
+	border-color: skyblue;
+	outline-color: skyblue;
+	position: absolute;
+	height: 17px;
+	width: 180px;
+}
+.mot1:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.b1
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 25px;
+	font-size: 18px;
+	width:100px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 440px;
+	margin-top: 40px;
+	position: absolute;
+}
+.b1:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.c2
+{
+	border: 1px white solid;
+	height: 150px;
+	width: 600px;
+	margin-left: 300px;
+	margin-top: 4px;
+}
+.c3
+{
+	border: 1px white solid;
+	height: 250px;
+	width: 600px;
+	margin-left: 300px;
+	margin-top: 4px;
+}
+.p2
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 80px;
+     margin-top: 40px;
+}
+.mot2
+{
+	color:white;
+	background-color:#000;
+	margin-left: 200px;
+	margin-top: 40px;
+	border-color: skyblue;
+	outline-color: skyblue;
+	position: absolute;
+	height: 17px;
+	width: 180px;
+}
+.mot2:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.p3
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 80px;
+     margin-top: 100px;
+}
+.mot3
+{
+	color:white;
+	background-color:#000;
+	margin-left: 200px;
+	margin-top: 100px;
+	border-color: skyblue;
+	outline-color: skyblue;
+	position: absolute;
+	height: 17px;
+	width: 180px;
+}
+.mot3:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.p4
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 80px;
+     margin-top: 20px;
+}
+.mot4
+{
+	color:white;
+	background-color:#000;
+	margin-left: 200px;
+	margin-top: 20px;
+	border-color: skyblue;
+	outline-color: skyblue;
+	position: absolute;
+	height: 17px;
+	width: 180px;
+}
+.mot4:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.b2
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 25px;
+	font-size: 18px;
+	width:100px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 480px;
+	margin-top: 70px;
+	position: absolute;
+}
+.b4:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.b4
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 25px;
+	font-size: 18px;
+	width:100px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 480px;
+	margin-top: 120px;
+	position: absolute;
+}
+.b2:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.b3:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.b3
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 25px;
+	font-size: 18px;
+	width:100px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 480px;
+	margin-top: 20px;
+	position: absolute;
+}
+table
+{
+	border:solid 1px rgba(45,45,45);
+	position: absolute;
+	margin-top: 100px;
+}
+th
+{
+	background-color:black;
+	border-radius: 5px 5px 0px 0px;
+	height: 20px;
+	width: 150px;
+	text-align-last: center;
+	color: white;
+}

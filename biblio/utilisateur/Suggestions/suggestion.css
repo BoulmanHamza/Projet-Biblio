@@ -1,0 +1,134 @@
+.img
+{
+	height:130px;
+	width: 1310px;
+}
+.img2
+{
+	margin-top: 1px;
+	position: absolute;
+	margin-left: 2px;
+}
+body
+{
+	background-color:rgba(51,51,51); 
+}
+.p
+{
+	color: orange;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align:center;
+}
+.p1
+{
+	color: #fff;
+	text-align:center;
+}
+.p2
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 100px;
+     margin-top: 30px;
+}
+.p3
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 100px;
+     margin-top: 100px;
+}
+.p4
+{
+     color:#fff; 
+     position:absolute;
+     margin-left: 100px;
+     margin-top: 170px;
+}
+.mot2
+{
+	color:white;
+	background-color:#000;
+	margin-left: 280px;
+	margin-top: 30px;
+	position: absolute;
+	height: 22px;
+	width: 240px;
+}
+.mot2:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.mot3
+{
+	color:white;
+	background-color:#000;
+	margin-left: 280px;
+	margin-top: 100px;
+	position: absolute;
+	height: 22px;
+	width: 240px;
+}
+.mot3:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.mot4
+{
+	color:white;
+	background-color:#000;
+	margin-left: 280px;
+	margin-top: 170px;
+	position: absolute;
+	height: 22px;
+	width: 240px;
+}
+.mot4:hover
+{
+	border-color: orange;
+	outline-color: orange;
+}
+.b1
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 30px;
+	font-size: 18px;
+	width:110px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 1150px;
+	margin-top: 230px;
+	position: absolute;
+}
+.b1:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+.b2
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 30px;
+	font-size: 18px;
+	width:110px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-left: 1000px;
+	margin-top: 230px;
+	position: absolute;
+}
+.b2:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}
+

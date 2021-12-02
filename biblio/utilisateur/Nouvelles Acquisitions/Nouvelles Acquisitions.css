@@ -1,0 +1,72 @@
+.img
+{
+	height:130px;
+	width: 1300px;
+}
+body
+{
+	background-color:rgba(51,51,51); 
+}
+p
+{
+	color: orange;
+	text-align: center;
+	margin-top: 30px;
+}
+table
+{
+	border:1px;
+	border-color:rgba(75,75,75);
+	border-style: solid;
+	border-radius: 3px;
+	color: white;
+	margin-top: 50px;
+}
+th
+{
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	color:white;
+	text-align:center;
+	height: 30px;
+	width: 200px;
+}
+.t1
+{
+	background-color: rgba(75,75,75);
+	color: white;
+	text-align:center;
+	height: 20px;
+}
+.t2
+{
+	background-color: black;
+	color: white;
+	text-align:center;
+	height: 20px;
+}
+td
+{
+	border-style:solid;
+    border-color: white;
+    border:1px;
+}
+.b2
+{
+	background-image: linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%);
+	outline: none;
+	height: 30px;
+	font-size: 18px;
+	width:110px; 
+	color:white;
+	border-color: rgba(75,75,75);
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 50px;
+	position: absolute;
+}
+.b2:hover
+{
+	cursor: pointer;
+	background-image: linear-gradient(180deg,rgba(75,75,75,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(106,106,106,1.00) 78.76%);
+	color:black;
+}

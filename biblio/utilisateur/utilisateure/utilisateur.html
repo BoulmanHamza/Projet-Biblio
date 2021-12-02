@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="utilisateur.css" />
+	<title>utilisateur</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<img src="1.png" class="img"/>
+	<br><br>
+	<center>
+	<a href="../../acceuil/acceuille.html"><button class="b"><b>Acceuil</b></button></a>
+	<a href="../Nouvelles Acquisitions/Nouvelles Acquisitions.php"><button class="b"><b>Nouvelles Acquisitions</b></button></a>
+	<a href="../Suggestions/Suggestion.html"><button class="b"><b>Suggestions</b></button></a>
+	<a href="../Réglement interne/Réglement interne.pdf"><button class="b"><b>Règlement interne</b></button></a>
+    </center>
+	<form method="POST" action="utilisateur.php">
+	<p class="p">Mot clé</p>
+	<input type="text" name="Mot" class="mot">
+	<button class="b1">Recherche</button>
+	<p class="p1">Rubrique</p>
+	<select name="Rubrique">
+		<option></option>
+		<option>Droit</option>
+		<option>Economie</option>
+		<option>Informatique</option>
+		<option>Histoire</option>
+		<option>Religion</option>
+		<option>Géniralité</option>
+		<option>littérature</option>
+		<option>Urbanisme</option>
+	</select>
+    <br><br><br>
+    <center><table>
+    	<tr>
+    		<th>Cote livre</th>
+    		<th>Titre</th>
+    		<th>Auteur</th>
+    		<th>Editeur</th>
+    		<th>Annee d'edition</th>
+    		<th>Rubrique</th>
+    		<th>Type</th>
+    		<th>disponabilité</th>
+    	</tr>
+    </table></center>
+    </form>
+    <p class="nb">NB: Les livres signalés comme "indisponible" sont en cours de prêt</p>
+
+</body>
+</html>

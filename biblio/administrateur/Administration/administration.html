@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function change()
+		{
+			document.getElementById("b1").style.background=" linear-gradient(180deg,rgba(16,06,10,1.00) 10.88%,rgba(45,75,25,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b2").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b3").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)"; 
+			document.getElementById("b4").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+		}
+		function chang()
+		{
+			document.getElementById("b1").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b2").style.background="linear-gradient(180deg,rgba(16,06,10,1.00) 10.88%,rgba(45,75,25,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b3").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)"; 
+			document.getElementById("b4").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+		}
+		function chan()
+		{
+			document.getElementById("b1").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b2").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b3").style.background="linear-gradient(180deg,rgba(16,06,10,1.00) 10.88%,rgba(45,75,25,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)"; 
+			document.getElementById("b4").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+		}
+		function cha()
+		{
+			document.getElementById("b1").style.background=" linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b2").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+			document.getElementById("b3").style.background="linear-gradient(180deg,rgba(106,106,106,1.00) 10.88%,rgba(45,45,45,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)"; 
+			document.getElementById("b4").style.background=" linear-gradient(180deg,rgba(16,06,10,1.00) 10.88%,rgba(45,75,25,1.00) 45.08%,rgba(75,75,75,1.00) 78.76%)";
+		}
+	</script>
+	<style type="text/css">
+.i
+{
+	background-color: rgba(45,45,45);
+	margin-top: 80px;
+	margin-left: 40px;
+	width: 1250px;
+	height: 580px;
+	border-color: gray;
+	border:1px;
+}
+
+	</style>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="administration.css" />
+	<title>administration</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<img src="1.png" class="img"/>
+	<br><br>
+	<center>
+	<a href="../../acceuil/acceuille.html"><button class="b"><b>Acceuil</b></button></a>
+	<a href="#"><button class="b"><b>Administration</b></button></a>
+	<a href="../Tableaux de Bord/tableaux de bord.html"><button class="b"><b>Tableaux de bord</b></button></a>
+	</center>
+	<a href="Gestion Pret/Gestion Pret.html" target="administration" onclick="change()"><button class="b1" id="b1">Gestion prêt</button></a>
+	<a href="Ajouter utilisateur/Ajouter utilisateur.html" target="administration" onclick="chang()"><button class="b2" id="b2">Ajouter utilisateur</button></a>
+	<a href="Ajouter Livre/Ajouter Livre.html" target="administration" onclick="chan()"><button class="b3" id="b3">Ajouter livre</button></a>
+	<a href="Modifier Livre/Modifier Livre.html" target="administration" onclick="cha()"><button class="b4" id="b4">Modifier livre</button></a>
+	<iframe name="administration" class="i"></iframe>
+</body>
+</html>
